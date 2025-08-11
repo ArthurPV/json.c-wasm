@@ -14,6 +14,8 @@ This project aimed to use the [json.c](https://github.com/ArthurPV/json.c) parse
 
 ```sh
 # From the root of the repository
+git submodule init
+git submodule update lib/json.c
 mkdir build
 cd build
 cmake .. -G Ninja
