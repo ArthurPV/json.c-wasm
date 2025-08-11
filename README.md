@@ -30,4 +30,4 @@ deno --allow-all server.ts
 
 ## Demo
 
-...
+https://github.com/user-attachments/assets/1e51797b-7809-499c-b101-6fe27701c465
