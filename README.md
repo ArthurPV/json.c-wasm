@@ -8,7 +8,7 @@ This project aimed to use the [json.c](https://github.com/ArthurPV/json.c) parse
 - [deno](https://deno.com/)
 - [CMake](https://cmake.org/)
 - C compiler e.g. [GCC](https://gcc.gnu.org/), [Clang](https://clang.llvm.org/)
-- Build system generator e.g. [Ninja](https://ninja-build.org/), [Make](https://www.gnu.org/software/make/)
+- Build system generator e.g. [Ninja](https://ninja-build.org/), [make](https://www.gnu.org/software/make/)
 
 ## Build
 
