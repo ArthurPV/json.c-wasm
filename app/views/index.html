@@ -8,7 +8,18 @@
 </head>
 <body>
 	<main>
+		<div class="editors">
+			<div id="json-editor" class="editor"></div>
+			<div id="result-editor" class="editor"></div>
+		</div>
 	</main>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.43.2/ace.min.js" integrity="sha512-sdeAa6bnaA5ZaOGAM7GhwO8ascBi986gL7z7whljQdiISDOEQZKja2yqe7pD+l5HshKzcJtoxJVxVwHcO5SVAQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 	<script src="wasm/json.c.js"></script>
+	<script src="scripts/ace.js" type="module"></script>
+	<script src="scripts/c/alloc.js" type="module"></script>
+	<script src="scripts/c/json.js" type="module"></script>
+	<script src="scripts/cstring.js" type="module"></script>
+	<script src="scripts/json.js" type="module"></script>
+	<script src="scripts/runtime.js" type="module"></script>
 </body>
 </html>

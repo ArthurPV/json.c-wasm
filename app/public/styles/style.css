@@ -1,0 +1,9 @@
+.editors {
+	display: flex;
+	gap: 10px;
+}
+
+.editor {
+	flex: 1;
+	height: 90vh;
+}
