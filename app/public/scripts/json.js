@@ -11,7 +11,7 @@ Runtime.entrypoint(() => {
 		const textEncoder = new TextEncoder();
 		const jsonEditorContentBytes = textEncoder.encode(jsonEditorContent)
 		const jsonEditorContentBytesLength = jsonEditorContentBytes.length;
-		const cJsonEditorContent = CAlloc.malloc(4 * jsonEditorContentBytesLength);
+		const cJsonEditorContent = CAlloc.malloc(jsonEditorContentBytes.BYTES_PER_ELEMENT * jsonEditorContentBytesLength);
 		const cErrorMessagePtr = CAlloc.malloc(4);
 		const cJsonSPtr = CAlloc.malloc(4);
 
