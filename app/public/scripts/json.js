@@ -29,6 +29,8 @@ Runtime.entrypoint(() => {
 			const cJsonS = Module.getValue(cJsonSPtr, "*");
 
 			Ace.resultEditor.setValue(Module.UTF8ToString(cJsonS));
+
+			CAlloc.free(cJsonS);
 		}
 
 		CAlloc.free(jsonEditorContent);
